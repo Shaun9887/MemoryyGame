@@ -1,0 +1,36 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 8rem);
+    grid-template-rows: repeat(3, 8rem);
+    grid-gap: .5rem;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border: solid, black;
+}
+
+body {
+    height: 100vh;
+    background: #060AB2;
+    background: -webkit-linear-gradient(
+        to right,
+        #B0B7BC,
+        #002244
+    );
+    background: linear-gradient(to right, #B0B7BC, #002244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
